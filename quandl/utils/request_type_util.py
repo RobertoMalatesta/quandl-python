@@ -11,7 +11,7 @@ class RequestType(object):
     Default limit of 8000 is set here as it appears to be the maximum for many
     webservers.
     """
-    MAX_URL_LENGTH_FOR_GET = 8000
+    MAX_URL_LENGTH_FOR_GET = 6300
     USE_GET_REQUEST = True  # This is used to simplify testing code
 
     @classmethod
